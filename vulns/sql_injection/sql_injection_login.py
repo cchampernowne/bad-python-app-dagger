@@ -9,7 +9,7 @@ def sql_injection_login_page(request, app):
         logged=None
     )
 
-# nosemgrep: tainted-sql-string 
+#nosemgrep: tainted-sql-string 
 def sql_injection_login_api(request, app):
     form = request.form
 
